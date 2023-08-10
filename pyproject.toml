@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hyve_examples"
-version = "0.0.0"
+version = "0.0.0.post1"
 description = "Examples for hyve"
 authors = [
   { name = "Rastko Ciric", email = "rastko@stanford.edu" },
@@ -22,7 +22,6 @@ classifiers = [
 ]
 requires-python = ">=3.10"
 dependencies = [
-    "pkg_resources",
 ]
 
 [project.urls]
