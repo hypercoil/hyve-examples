@@ -10,6 +10,7 @@ from .retrieval import (
     get_null400_cifti,
     get_null400_gifti,
     get_pain_thresh_nifti,
+    get_poldrack_freesurfer,
     get_schaefer400_cifti,
     get_schaefer400_synthetic_conmat,
 )

@@ -87,6 +87,29 @@ def get_pain_thresh_nifti():
     )
 
 
+def get_poldrack_freesurfer():
+    geom_left = resource_filename(
+        'hyve_examples',
+        'data/lh.inflated'
+    )
+    geom_right = resource_filename(
+        'hyve_examples',
+        'data/rh.inflated'
+    )
+    morph_left = resource_filename(
+        'hyve_examples',
+        'data/lh.curv'
+    )
+    morph_right = resource_filename(
+        'hyve_examples',
+        'data/rh.curv'
+    )
+    return {
+        'left': (geom_left, morph_left),
+        'right': (geom_right, morph_right),
+    }
+
+
 def get_schaefer400_cifti():
     return resource_filename(
         'hyve_examples',
