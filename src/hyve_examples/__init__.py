@@ -11,6 +11,10 @@ from .retrieval import (
     get_null400_gifti,
     get_pain_thresh_nifti,
     get_poldrack_freesurfer,
+    get_salience_ic_nifti,
     get_schaefer400_cifti,
+    get_schaefer400_gifti,
     get_schaefer400_synthetic_conmat,
+    get_svg_blend,
+    get_svg_cuboid,
 )

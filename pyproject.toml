@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hyve_examples"
-version = "0.0.0.post1"
+version = "0.0.1"
 description = "Examples for hyve"
 authors = [
   { name = "Rastko Ciric", email = "rastko@stanford.edu" },

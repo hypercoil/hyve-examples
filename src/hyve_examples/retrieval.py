@@ -110,6 +110,13 @@ def get_poldrack_freesurfer():
     }
 
 
+def get_salience_ic_nifti():
+    return resource_filename(
+        'hyve_examples',
+        'data/IC_01.nii.gz'
+    )
+
+
 def get_schaefer400_cifti():
     return resource_filename(
         'hyve_examples',
@@ -117,8 +124,35 @@ def get_schaefer400_cifti():
     )
 
 
+def get_schaefer400_gifti(tpl='fsLR'):
+    return {
+        'left': resource_filename(
+            'hyve_examples',
+            f'data/tpl-{tpl}_hemi-L_desc-schaefer_res-400_atlas.gii'
+        ),
+        'right': resource_filename(
+            'hyve_examples',
+            f'data/tpl-{tpl}_hemi-R_desc-schaefer_res-400_atlas.gii'
+        ),
+    }
+
+
 def get_schaefer400_synthetic_conmat():
     return resource_filename(
         'hyve_examples',
         'data/atlas-schaefer400_desc-synth_cov.tsv'
+    )
+
+
+def get_svg_blend():
+    return resource_filename(
+        'hyve_examples',
+        'data/ve_fig-blendInsert.svg'
+    )
+
+
+def get_svg_cuboid():
+    return resource_filename(
+        'hyve_examples',
+        'data/cuboid.svg'
     )
